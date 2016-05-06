@@ -12,6 +12,8 @@
 		6ADAFE891CDC89CB00B33196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAFE871CDC89CB00B33196 /* Main.storyboard */; };
 		6ADAFE8B1CDC89CB00B33196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAFE8A1CDC89CB00B33196 /* Assets.xcassets */; };
 		6ADAFE8E1CDC89CB00B33196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAFE8C1CDC89CB00B33196 /* LaunchScreen.storyboard */; };
+		6ADAFE961CDC936800B33196 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAFE951CDC936800B33196 /* Minecraft.ttf */; };
+		6ADAFE981CDC967600B33196 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAFE971CDC967600B33196 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6ADAFE8A1CDC89CB00B33196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ADAFE8D1CDC89CB00B33196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADAFE8F1CDC89CB00B33196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADAFE951CDC936800B33196 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		6ADAFE971CDC967600B33196 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		6ADAFE821CDC89CA00B33196 /* oop exercise */ = {
 			isa = PBXGroup;
 			children = (
+				6ADAFE951CDC936800B33196 /* Minecraft.ttf */,
 				6ADAFE831CDC89CA00B33196 /* AppDelegate.swift */,
 				6ADAFE851CDC89CA00B33196 /* ViewController.swift */,
 				6ADAFE871CDC89CB00B33196 /* Main.storyboard */,
+				6ADAFE971CDC967600B33196 /* Character.swift */,
 				6ADAFE8A1CDC89CB00B33196 /* Assets.xcassets */,
 				6ADAFE8C1CDC89CB00B33196 /* LaunchScreen.storyboard */,
 				6ADAFE8F1CDC89CB00B33196 /* Info.plist */,
@@ -124,6 +130,7 @@
 			files = (
 				6ADAFE8E1CDC89CB00B33196 /* LaunchScreen.storyboard in Resources */,
 				6ADAFE8B1CDC89CB00B33196 /* Assets.xcassets in Resources */,
+				6ADAFE961CDC936800B33196 /* Minecraft.ttf in Resources */,
 				6ADAFE891CDC89CB00B33196 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADAFE981CDC967600B33196 /* Character.swift in Sources */,
 				6ADAFE861CDC89CA00B33196 /* ViewController.swift in Sources */,
 				6ADAFE841CDC89CA00B33196 /* AppDelegate.swift in Sources */,
 			);
